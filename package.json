@@ -1,18 +1,24 @@
 {
   "name": "wanderlust",
   "version": "1.0.0",
-  "main": "data (1).js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A simple Express.js app with EJS and MongoDB",
   "dependencies": {
     "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
     "express": "^5.1.0",
     "method-override": "^3.0.0",
     "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
